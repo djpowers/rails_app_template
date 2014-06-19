@@ -4,11 +4,6 @@ create_file 'README.md', 'TODO'
 gem_group :development, :test do
   gem 'pry-rails'
   gem 'rspec-rails'
-  gem 'capybara'
-  gem 'factory_girl_rails'
-  gem 'shoulda-matchers'
-  gem 'valid_attribute'
-  gem 'launchy'
 end
 
 gem_group :development do
@@ -17,6 +12,13 @@ gem_group :development do
   gem 'quiet_assets'
   gem 'meta_request'
   gem 'rails-erd'
+end
+
+gem_group :test do
+  gem 'capybara'
+  gem 'factory_girl_rails'
+  gem 'shoulda-matchers'
+  gem 'launchy'
 end
 
 run 'bundle install'
