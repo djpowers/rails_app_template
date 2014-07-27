@@ -25,6 +25,13 @@ This script will make the following changes:
 * Initialize Git
 * Add all files to Git and commit
 
+#### Used in conjuction with .railsrc file to override defaults
+```
+-T # skips making the test unit folders (I use rspec)
+-d postgresql # defaults my development database to PostgreSQL instead of SQLite3
+```
+
 ### Resources
 * Railscasts episode [\#148 Custom App Generators (revised)](http://railscasts.com/episodes/148-custom-app-generators-revised)
 * [RailsGuides: Creating and Customzing Rails Generators & Templates](http://guides.rubyonrails.org/generators.html)
+* [How To Configure Your "$ Rails New" Defaults](http://natashatherobot.com/how-to-configure-your-rails-defaults/)
